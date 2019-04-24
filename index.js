@@ -30,7 +30,7 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
-console.log(destructivelyPrependKitten("acc"))
+//console.log(destructivelyPrependKitten("acc"))
 
 /*
 
@@ -47,6 +47,7 @@ function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
+console.log(destructivelyRemoveLastKitten())
 /*
 
   describe('destructivelyRemoveLastKitten()', function() {
