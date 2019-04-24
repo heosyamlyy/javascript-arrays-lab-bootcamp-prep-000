@@ -47,7 +47,6 @@ function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
-console.log(destructivelyRemoveLastKitten())
 /*
 
   describe('destructivelyRemoveLastKitten()', function() {
@@ -58,7 +57,16 @@ console.log(destructivelyRemoveLastKitten())
       expect(window.kittens).toEqual(["Milo", "Otis"])
     })
   })
+*/
+function destructivelyRemoveFirstKitten() {
+  kittens.pop();
+  return kittens;
+}
 
+console.log(destructivelyRemoveFirstKitten())
+
+
+/*
   describe('destructivelyRemoveFirstKitten()', function() {
     it('removes the First kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
