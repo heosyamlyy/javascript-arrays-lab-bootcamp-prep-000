@@ -63,7 +63,7 @@ function destructivelyRemoveFirstKitten() {
   return kittens;
 }
 
-console.log(destructivelyRemoveFirstKitten())
+//console.log(destructivelyRemoveFirstKitten())
 
 
 /*
@@ -75,7 +75,13 @@ console.log(destructivelyRemoveFirstKitten())
       expect(window.kittens).toEqual(["Otis", "Garfield"])
     })
   })
-
+*/
+function appendKitten(name) {
+  var outputArray = kittens.slice(0, kittens.length)
+  outputArray.push(name)
+  return outputArray;
+}
+/*
   describe('appendKitten(name)', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
