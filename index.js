@@ -114,8 +114,8 @@ function appendKitten(name) {
     outputArray.pop();
     return outputArray;
   }
-console.log(removeLastKitten())
-console.log(kittens)
+//console.log(removeLastKitten())
+//console.log(kittens)
   /*
 
   describe('removeLastKitten()', function() {
@@ -134,8 +134,8 @@ function removeFirstKitten() {
   
 }
   
-console.log(removeFirstKitten())
-console.log(kittens)
+//console.log(removeFirstKitten())
+//console.log(kittens)
   /*
 
   describe('removeFirstKitten()', function() {
