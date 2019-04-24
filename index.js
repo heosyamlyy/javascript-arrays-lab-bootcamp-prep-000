@@ -15,7 +15,7 @@ function destructivelyAppendKitten(name) {
   return name;
 }
 
-
+console.log(destructivelyAppendKitten("acc"))
 /*
 
   describe('destructivelyAppendKitten(name)', function() {
