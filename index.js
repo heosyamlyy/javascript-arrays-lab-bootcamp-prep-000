@@ -126,6 +126,17 @@ console.log(kittens)
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
+  */
+function removeFirstKitten() {
+  var outputArray = prependKitten.slice(0, kittens.length)
+  outputArray.shift();
+  return outputArray
+  
+}
+  
+console.log(prependKitten("acc"))
+console.log(kittens)
+  /*
 
   describe('removeFirstKitten()', function() {
     it('removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged', function() {
