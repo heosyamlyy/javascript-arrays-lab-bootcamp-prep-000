@@ -11,7 +11,7 @@ describe('Arrays', function() {
   
 */
 function destructivelyAppendKitten(name) {
-  name.appends(name);
+  name.append(name);
   return name;
 }
 
