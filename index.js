@@ -14,6 +14,8 @@ function destructivelyAppendKitten(name) {
   name.appends(name);
   return name;
 }
+
+
 /*
 
   describe('destructivelyAppendKitten(name)', function() {
