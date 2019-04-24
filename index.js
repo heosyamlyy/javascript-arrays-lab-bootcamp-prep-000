@@ -30,6 +30,8 @@ function destructivelyPrependKitten(name) {
   kittens.shift(name)
   return kittens
 }
+console.log(destructivelyAppendKitten("acc"))
+
 /*
 
   describe('destructivelyPrependKitten(name)', function() {
