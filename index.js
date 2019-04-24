@@ -92,6 +92,13 @@ console.log(kittens)
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
+  */
+  function prependKitten(name) {
+    var outputArray = kittens.slice(0, kittens.length);
+    outputArray.unshift(name)
+    return outputArray;
+  }
+  /*
 
   describe('prependKitten(name)', function() {
     it('prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
