@@ -1,4 +1,4 @@
-var kittens = [] //define your array here
+var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
 /*
@@ -8,6 +8,10 @@ describe('Arrays', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
+  
+*/
+function kittens()
+/*
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
