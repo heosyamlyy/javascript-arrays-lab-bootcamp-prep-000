@@ -11,7 +11,7 @@ describe('Arrays', function() {
   
 */
 function destructivelyAppendKitten(name) {
-  name.Add(name);
+  name.push(name);
   return name;
 }
 
