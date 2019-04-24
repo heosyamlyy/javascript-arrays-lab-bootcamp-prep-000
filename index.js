@@ -97,8 +97,7 @@ function appendKitten(name) {
     outputArray.unshift(name)
     return outputArray;
   }
-console.log(prependKitten("acc"))
-console.log(kittens)
+
   /*
 
   describe('prependKitten(name)', function() {
@@ -115,6 +114,8 @@ console.log(kittens)
     outputArray.pop();
     return outputArray;
   }
+console.log(removeLastKitten())
+console.log(kittens)
   /*
 
   describe('removeLastKitten()', function() {
