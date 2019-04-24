@@ -77,8 +77,8 @@ function destructivelyRemoveFirstKitten() {
   })
 */
 function appendKitten(name) {
-  var outputArray = kittens.slice(0, kittens.length)
-  outputArray.push(name)
+  var outputArray = kittens.slice(0, kittens.length);
+  outputArray.push(name);
   return outputArray;
 }
 /*
