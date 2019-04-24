@@ -82,7 +82,7 @@ function appendKitten(name) {
   return outputArray;
 }
 console.log(appendKitten("acc"))
-console.log(kitten)
+console.log(kittens)
 /*
   describe('appendKitten(name)', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
