@@ -30,7 +30,7 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
-console.log(destructivelyAppendKitten("acc"))
+console.log(destructivelyPrependKitten("acc"))
 
 /*
 
