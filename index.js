@@ -11,8 +11,8 @@ describe('Arrays', function() {
   
 */
 function destructivelyAppendKitten(name) {
-  name.push(name);
-  return name;
+  kittens.push(name);
+  return kittens;
 }
 
 console.log(destructivelyAppendKitten("acc"))
