@@ -10,7 +10,9 @@ describe('Arrays', function() {
   })
   
 */
-function kittens()
+function destructivelyAppendKitten(name) {
+  
+}
 /*
 
   describe('destructivelyAppendKitten(name)', function() {
