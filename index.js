@@ -109,6 +109,13 @@ console.log(kittens)
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
+  */
+  function removeLastKitten() {
+    var outputArray = kittens.slice(0, kittens.length);
+    outputArray.pop();
+    return outputArray;
+  }
+  /*
 
   describe('removeLastKitten()', function() {
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
