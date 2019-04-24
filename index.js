@@ -42,6 +42,12 @@ console.log(destructivelyPrependKitten("acc"))
       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
     })
   })
+*/
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}
+/*
 
   describe('destructivelyRemoveLastKitten()', function() {
     it('removes the last kitten from the kittens array', function() {
