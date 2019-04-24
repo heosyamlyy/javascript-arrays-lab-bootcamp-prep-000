@@ -134,7 +134,7 @@ function removeFirstKitten() {
   
 }
   
-console.log(prependKitten("acc"))
+console.log(removeFirstKitten())
 console.log(kittens)
   /*
 
