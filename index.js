@@ -128,7 +128,7 @@ console.log(kittens)
   })
   */
 function removeFirstKitten() {
-  var outputArray = prependKitten.slice(0, kittens.length)
+  var outputArray = kittens.slice(0, kittens.length)
   outputArray.shift();
   return outputArray
   
