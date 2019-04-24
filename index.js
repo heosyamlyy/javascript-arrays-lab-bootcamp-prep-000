@@ -97,7 +97,7 @@ function appendKitten(name) {
     outputArray.unshift(name)
     return outputArray;
   }
-  console.log(prependKitten("acc"))
+console.log(prependKitten("acc"))
 console.log(kittens)
   /*
 
